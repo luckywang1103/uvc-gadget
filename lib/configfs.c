@@ -298,10 +298,10 @@ static const struct uvc_function_config g_webcam_config = {
 					{
 						.index = 1,
 						.width = 640,
-						.height = 360,
+						.height = 480,
 						.num_intervals = 3,
 						.intervals = (unsigned int[]) {
-							666666,
+							333333,
 							10000000,
 							50000000,
 						},
@@ -324,10 +324,10 @@ static const struct uvc_function_config g_webcam_config = {
 					{
 						.index = 1,
 						.width = 640,
-						.height = 360,
+						.height = 480,
 						.num_intervals = 3,
 						.intervals = (unsigned int[]) {
-							666666,
+							333333,
 							10000000,
 							50000000,
 						},
